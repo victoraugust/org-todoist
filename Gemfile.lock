@@ -9,7 +9,7 @@ GEM
     byebug (10.0.2)
     coderay (1.1.2)
     dotenv (2.4.0)
-    faraday (0.15.0)
+    faraday (0.15.2)
       multipart-post (>= 1.2, < 3)
     google_calendar (0.6.4)
       TimezoneParser (~> 0.3.0)
@@ -57,4 +57,4 @@ DEPENDENCIES
   pry-byebug
 
 BUNDLED WITH
-   1.16.1
+   1.16.2

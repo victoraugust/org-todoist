@@ -92,10 +92,10 @@ module OrgTodoist
       @new_models.each do |model|
         # debug
         log.info "swap_temp_ids() for #{model.inspect}"
-        log.info res.body['TempIdMapping']
+        log.info res.body['temp_id_mapping']
         # p res.body
         # p model.temp_id
-        if id = res.body['TempIdMapping'][model.temp_id]
+        if id = res.body['temp_id_mapping'][model.temp_id]
           model.swap_temp_id id
         else
           log.info "Missing TempIdMapping for #{model.inspect}"
